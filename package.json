@@ -1,0 +1,68 @@
+{
+    "name": "keluang",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "electron-forge start",
+        "package": "electron-forge package",
+        "make": "electron-forge make"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mycrl/keluang.git"
+    },
+    "keywords": [
+        "remote",
+        "webrtc",
+        "sound"
+    ],
+    "author": "Mr.Panda",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mycrl/keluang/issues"
+    },
+    "homepage": "https://github.com/mycrl/keluang#readme",
+    "dependencies": {
+        "address": "^1.1.2",
+        "electron-squirrel-startup": "^1.0.0",
+        "express": "^4.17.2",
+        "once_cell": "^1.0.1",
+        "ws": "^8.4.2"
+    },
+    "devDependencies": {
+        "@electron-forge/cli": "^6.0.0-beta.63",
+        "@electron-forge/maker-deb": "^6.0.0-beta.63",
+        "@electron-forge/maker-rpm": "^6.0.0-beta.63",
+        "@electron-forge/maker-squirrel": "^6.0.0-beta.63",
+        "@electron-forge/maker-zip": "^6.0.0-beta.63",
+        "electron": "^16.0.8"
+    },
+    "config": {
+        "forge": {
+            "packagerConfig": {},
+            "makers": [
+                {
+                    "name": "@electron-forge/maker-squirrel",
+                    "config": {
+                        "name": "keluang"
+                    }
+                },
+                {
+                    "name": "@electron-forge/maker-zip",
+                    "platforms": [
+                        "darwin"
+                    ]
+                },
+                {
+                    "name": "@electron-forge/maker-deb",
+                    "config": {}
+                },
+                {
+                    "name": "@electron-forge/maker-rpm",
+                    "config": {}
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,sans-serif;
+}
+
+audio {
+    display: none;
+}
+
+body {
+    background-color: #2b2e3b;
+}
+
+#play {
+    width: 150px;
+    margin: 0 auto;
+    margin-top: 40vh;
+}
+
+#play img {
+    width: 150px;
+    height: 150px;
+}
+
+#state {
+    text-transform: capitalize;
+    font-size: 1.8rem;
+    color: #fff;
+}
+
+.state {
+    margin: 0 auto;
+    margin-top: 5vh;
+    width: 40%;
+}
+
+#signal {
+    width: 20px;
+    height: 20px;
+    float: left;
+    border-radius: 20px;
+    position: relative;
+    top: 3px;
+    margin-right: 15px;
+}

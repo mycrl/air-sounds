@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,sans-serif;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.view {
+    background-color: #2b2e3b;
+    width: 298px;
+    height: 343px;
+    border-radius: 20px;
+    border: 1px solid #fff;
+    position: relative;
+}
+
+.qrcode-box {
+    margin: 0 auto;
+    width: 200px;
+    padding: 15px;
+    background-color: #eee;
+    border-radius: 10px;
+}
+
+#qrcode {
+    width: 170px;
+    height: 200px;
+}
+
+.url {
+    margin: 0 auto;
+    width: 230px;
+    background-color: #000;
+    line-height: 30px;
+    color: #fff;
+    border-radius: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#close {
+    background-color: rgba(0, 0, 0, 0);
+    border: 0;
+    color: #fff;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#close img {
+    width: 17px;
+    height: 17px;
+}
+
+.state {
+    height: 45px;
+    line-height: 45px;
+    width: 230px;
+    margin: 0 auto;
+}
+
+#state {
+    color: #ddd;
+}
+
+#signal {
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 10px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 18px;
+}

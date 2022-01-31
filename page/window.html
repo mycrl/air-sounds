@@ -1,0 +1,25 @@
+<html>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <script src='./qrcode.js'></script>
+    <link href="./window.css" rel="stylesheet" type="text/css">
+    <body>
+        <div class='view'>
+            <div class="state">
+                <div id="signal"></div>
+                <div id="state"></div>
+            </div>
+            <div id="close">
+                <img src="close.svg"/>
+            </div>
+            <div class="qrcode-box">
+                <div id='qrcode'></div>
+            </div>
+            <div class="url">
+                <span id="url-path"></span>
+            </div>
+        </div>
+    </body>
+    <script src="window.js"></script>
+</html>
